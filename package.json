@@ -4,7 +4,7 @@
   "description": "Todobackend Acceptance Tests",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha tests.js"
   },
   "author": "Thiago Paes",
   "license": "ISC",

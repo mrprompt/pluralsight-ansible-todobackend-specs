@@ -18,7 +18,7 @@ describe('Cross Origin Requests', function() {
             .end();
     });
 
-    it('should return the correct CORS headers', function() {
+    xit('should return the correct CORS headers', function() {
         return assert(result, 'header').to.contain.all.keys([
             'access-control-allow-origin',
             'access-control-allow-methods',
@@ -26,7 +26,7 @@ describe('Cross Origin Requests', function() {
         ]);
     });
 
-    it('should allow all origins', function() {
+    xit('should allow all origins', function() {
         return assert(result, 'header.access-control-allow-origin').to.equal('*');
     });
 });
